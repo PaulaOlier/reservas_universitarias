@@ -6,6 +6,8 @@ beforeEach(() => {
   localStorage.clear();
 });
 
+// Mejora: validación adicional de campos en addReservation()
+
 test('no permite reservas duplicadas', () => {
   const r = { name: 'Pau', date: '2025-10-20', hour: '10:00', spaceId: 'aula-101' };
   addReservation(r);
