@@ -24,6 +24,7 @@ export function saveData(state) {
  * Agrega una reserva verificando duplicados (spaceId + date + hour).
  * Lanza Error si existe duplicado o datos inválidos.
  */
+
 export function addReservation(reservation) {
   if (!reservation || !reservation.name || !reservation.date || !reservation.hour || !reservation.spaceId) {
     throw new Error('Datos de reserva incompletos.');

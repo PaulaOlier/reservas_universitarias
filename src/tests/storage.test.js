@@ -20,3 +20,4 @@ test('guarda y carga reservas', () => {
   const data = loadData();
   expect(data.reservations.some(rr => rr.id === created.id)).toBe(true);
 });
+//Verificacion y en esta rama todo esta bien 
