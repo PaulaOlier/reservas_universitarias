@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sistema de Reservas Universitarias</title>
+  <link rel="stylesheet" href="src/styles/style.css">
+</head>
+<body>
+  <header>
+    <h1>Sistema de Reservas Universitarias</h1>
+  </header>
+
+  <main class="container">
+    <section class="spaces">
+      <h2>Espacios disponibles</h2>
+      <div id="space-list" class="space-list"></div>
+    </section>
+
+    <section class="form-section">
+      <h2>Crear reserva</h2>
+      <form id="reservation-form" class="reservation-form">
+        <label>
+          Nombre
+          <input type="text" id="name" required />
+        </label>
+        <label>
+          Fecha
+          <input type="date" id="date" required />
+        </label>
+        <label>
+          Hora
+          <input type="time" id="hour" required />
+        </label>
+        <label>
+          Espacio
+          <select id="space-select" required></select>
+        </label>
+        <button type="submit">Reservar</button>
+      </form>
+
+      <h2>Mis reservas</h2>
+      <div id="reservations-list" class="reservations-list"></div>
+    </section>
+  </main>
+
+  <script type="module" src="src/main.js"></script>
+</body>
+</html>
