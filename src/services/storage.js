@@ -56,6 +56,6 @@ function sampleSpaces() {
   return [
     { id: 'aula-101', name: 'Aula 101', type: 'Aula', image: 'public/assets/aula1.jpg' },
     { id: 'cancha-1', name: 'Cancha 1', type: 'Cancha', image: 'public/assets/cancha1.jpg' },
-    { id: 'lab-ia', name: 'Laboratorio IA', type: 'Laboratorio', image: 'public/assets/lab1.jpg' }
+    { id: 'lab-ia', name: 'Laboratorio análisis ambiental', type: 'Laboratorio', image: 'public/assets/lab1.jpg' }
   ];
 }

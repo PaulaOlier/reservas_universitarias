@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "dev": "live-server --open=./index.html --port=5173",
+  "start": "live-server --open=./index.html --port=5173",
+  "test": "vitest"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
